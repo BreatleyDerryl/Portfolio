@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breatley's Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/460a22cae8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#project">Projects</a></li>
+                    <li><a href="#achivements">Achivements</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Fresher</p>
+                <h1>Hi, I'm <span>Breatley Derryl D</span><br>From Chennai</h1>
+            </div>
+        </div>
+    </div> 
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/user.jpg" width="520px" height="620px">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>A passionate and dedicated student at St. Joseph's Institute of Technology, 
+                    actively pursuing a B.E. in Computer Science Engineering. With a strong 
+                    passion for front-end web development, Python programming, and UI/UX design, 
+                    I am eager to leverage my skills and creativity to make meaningful contributions 
+                    to a company's growth.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('internship')">Internship</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills" >
+                        <ul>
+                            <li><span>UI/UX</span><br>Photoshop, Canva, Figma.</li>
+                            <li><span>Web Development</span><br>HTML, CSS, JavaScript.</li>
+                            <li><span>Programming Language</span><br>C, Python, Basics of Java, MySQL.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="internship">
+                        <ul>
+                            <li><span>01/01/2023 - 28/02/2023</span><br>Web Development in Teachook.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>BE-Computer Science</span><br>
+                                St. Joseph's Institute of Technology, chennai<br>
+                                2020-2024<br>
+                                CGPA - 8.35</li>
+                            <li><span>HSE</span><br>
+                                Alphonsa Matric Higher Secondary School, Nagercoil<br>
+                                2020<br>
+                                HSE Grade - 76.16%</li>
+                            <li><span>SSLC</span><br>
+                                Seventh Day Adventist Matric Higher Secondary School, Nagercoil<br>
+                                2018<br>
+                                SSLC Grade - 75.2%</li>
+                        </ul>
+                    </div>
+            </div>   
+        </div>
+    </div>
+</div>
+
+<!-------------------services------------------>
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Create a successful service app by defining objectives,
+                     researching user needs, designing an intuitive interface, 
+                     testing for usability, ensuring security, and maintaining 
+                     the app with regular updates.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX</h2>
+                <p>UI (User Interface) design focuses on the visual elements and 
+                    aesthetics of a digital product, while UX (User Experience) 
+                    design centers on creating a seamless and user-friendly journey, 
+                    considering user behavior and needs. Together, they ensure a visually 
+                    pleasing and efficient user experience.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Design</h2>
+                <p>App design involves creating the visual and functional aspects of a 
+                   mobile or software application, ensuring an appealing interface, a 
+                   smooth user experience, and efficient navigation.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--------------projects------------>
+
+<div id="project">
+    <div class="container">
+        <div class="sub-title">My Work</div>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/work-1.png">
+                <div class="layer">
+                    <h3>Mobile Apps</h3>
+                    <p> These are designed to run on smartphones and tablets. They can be 
+                        found in app stores like the Apple App Store (for iOS devices) and 
+                        Google Play Store (for Android devices).</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work-2.png">
+                <div class="layer">
+                    <h3>Desktop Apps</h3>
+                    <p>These are designed to run on personal computers or laptops. They are 
+                        often installed from software distribution platforms or downloaded 
+                        from the internet.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work-3.png">
+                <div class="layer">
+                    <h3>Web Apps</h3>
+                    <p> These are accessed through web browsers and do not require installation on 
+                        a device. They are often hosted on remote servers and accessed via the 
+                        internet.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class = "btn">See more</a>
+    </div>
+</div>
+
+<!--------------------Achivements-------------------->
+
+<div id="achivements">
+    <div class="container">
+        <div class="sub-title">My Achivements</div>
+        <div class="achiv-list">
+            <div class="achiv">
+                <img src="Images/Achivement-1.png">
+                <div class="info">
+                <i class="fa-solid fa-circle-info">
+                    <p>Achieved First Prize in Paper Presentation event 
+                    at National Level Technical Symposium, Meenakshi Sundararajan 
+                    Engineering College, Chennai.</p></i>
+                </div>
+            </div>
+            <div class="achiv">
+                <img src="Images/Achivement-2.png">
+                <div class="info">
+                <i class="fa-solid fa-circle-info">
+                    <p>Achieved First Prize in Mini Project event 
+                        at National Level Technical Symposium, Meenakshi Sundararajan 
+                        Engineering College, Chennai.</p></i>
+                </div>
+            </div>
+        </div>
+</div>
+
+<!--------------------------contact----------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>breatleyderryl1@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>+917598880092</p>
+                <div class="social-icons">
+                    <a href="www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="www.linkedin.com/in/breatley-derryl-d-104839222"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="www.github.com"><i class="fa-brands fa-github"></i></a>
+                    <a href="www.twiter.com"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <a href="Images/BREATLEY DERRYL D.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Breatley.</p> <!---Made with <i class="fa-solid fa-heart"></i> Love</p>--->
+    </div>
+</div>
+
+<!----------------------Scripts--------------------->
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+    
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+
+<!------------contact----------------->
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxVkwrM9UwS_bi6aedBkFa6Ov4S0tc8Z-7g6C2rqV_4WAnS2XwrPf4BrlV9gCizcbhbcQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>  {
+            msg.innerHTML = "Message sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+</body>
+</html>
