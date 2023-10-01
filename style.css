@@ -550,7 +550,7 @@ nav .fa-solid{
         background-image: url(Images/background-phone.png);
     }
     .header-text{
-        margin-top: 100%;
+        margin-top: 130%;
         font-size: 18px;
     }
     .header-text h1{
@@ -602,6 +602,13 @@ nav .fa-solid{
     .tab-links{
         font-size: 16px;
         margin-right: 20px;
+    }
+    .layer{
+        font-size: 14px;
+    }
+    .layer h3{
+        font-weight: 700;
+        margin-bottom:5px;
     }
     .contact-left, .contact-right{
         flex-basis: 100%;
